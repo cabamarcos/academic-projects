@@ -9,7 +9,7 @@
 
 [Explorar la página](https://cabamarcos.github.io/academic-projects/) · [Mi perfil de GitHub](https://github.com/cabamarcos)
 
-**58 entradas principales** · **27 asignaturas y TFG** · **2 titulaciones**
+**59 entradas principales** · **27 asignaturas y TFG** · **2 titulaciones**
 
 </div>
 
@@ -40,7 +40,7 @@ Cada entrada enlaza al repositorio que contiene el código, los cuadernos y la d
 <a id="grado-uc3m"></a>
 ## Grado en Ingeniería Informática · UC3M
 
-**Universidad Carlos III de Madrid** · 42 entradas principales.
+**Universidad Carlos III de Madrid** · 43 entradas principales.
 
 <a id="uc3m-1"></a>
 ### 1.º curso
@@ -172,6 +172,7 @@ Cada entrada enlaza al repositorio que contiene el código, los cuadernos y la d
 
 | Proyecto | Descripción | Tecnologías |
 | --- | --- | --- |
+| [Predicción del rendimiento de turbinas · práctica 1](https://github.com/cabamarcos/Gas-Turbine-Emission-Prediction) | Predicción del rendimiento energético (TEY) de una turbina de gas a partir de sensores, comparando Adaline implementada desde cero y un perceptrón multicapa. | Python · NumPy · TensorFlow · Keras |
 | [Clasificación de medios de transporte](https://github.com/cabamarcos/P2.1-RRNN) · 🔒 Privado | Redes neuronales densas para identificar el medio de transporte a partir de datos de sensores, con preprocesamiento y tratamiento del desbalanceo. | Python · TensorFlow · Keras |
 | [Clasificación de imágenes aéreas](https://github.com/cabamarcos/P2.2-RRNN) · 🔒 Privado | Redes neuronales para clasificar escenas de uso del suelo del conjunto UC Merced, con preparación de imágenes y experimentación convolucional. | Python · TensorFlow · Keras |
 

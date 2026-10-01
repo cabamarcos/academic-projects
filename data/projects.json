@@ -560,6 +560,23 @@
       "featured": false
     },
     {
+      "repository": "Gas-Turbine-Emission-Prediction",
+      "title": "Predicción del rendimiento de turbinas · práctica 1",
+      "description": "Predicción del rendimiento energético (TEY) de una turbina de gas a partir de sensores, comparando Adaline implementada desde cero y un perceptrón multicapa.",
+      "degree": "UC3M",
+      "year": 4,
+      "subject": "Redes de neuronas",
+      "url": "https://github.com/cabamarcos/Gas-Turbine-Emission-Prediction",
+      "technologies": [
+        "Python",
+        "NumPy",
+        "TensorFlow",
+        "Keras"
+      ],
+      "visibility": "public",
+      "featured": false
+    },
+    {
       "repository": "P2.1-RRNN",
       "title": "Clasificación de medios de transporte",
       "description": "Redes neuronales densas para identificar el medio de transporte a partir de datos de sensores, con preprocesamiento y tratamiento del desbalanceo.",
