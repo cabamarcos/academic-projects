@@ -371,9 +371,9 @@
         "Q-learning",
         "BFS"
       ],
-      "visibility": "private",
+      "visibility": "public",
       "featured": false,
-      "note": "Material previsto para Aprendizaje Automático de 3.º que no llegó a formar parte de los proyectos de ese curso escolar. Desarrollo personal posterior (2026)."
+      "note": "Material previsto para Aprendizaje Automático de 3.º que no llegó a formar parte de los proyectos de ese curso escolar."
     },
     {
       "repository": "Navigator",
