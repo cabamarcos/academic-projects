@@ -625,6 +625,23 @@
       "featured": false
     },
     {
+      "repository": "VehiclePrototype",
+      "title": "Prototipo de vehículo con Raspberry Pi",
+      "description": "Prácticas con un vehículo físico en Raspberry Pi: sensores de distancia y luz, motor DC, servomotor y luces RGB, con interrupciones, hilos y ejecución de comandos.",
+      "degree": "UC3M",
+      "year": 4,
+      "subject": "Internet de las cosas",
+      "url": "https://github.com/cabamarcos/VehiclePrototype",
+      "technologies": [
+        "Python",
+        "Raspberry Pi",
+        "GPIO",
+        "threading"
+      ],
+      "visibility": "private",
+      "featured": false
+    },
+    {
       "repository": "DigitalTwinVehiclePrototype",
       "title": "Gemelo digital de vehículos",
       "description": "Prototipo IoT que conecta vehículos virtuales, telemetría y gestión de rutas mediante MQTT, microservicios y contenedores.",

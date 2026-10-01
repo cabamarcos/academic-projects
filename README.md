@@ -9,7 +9,7 @@
 
 [Explorar la página](https://cabamarcos.github.io/academic-projects/) · [Mi perfil de GitHub](https://github.com/cabamarcos)
 
-**59 entradas principales** · **27 asignaturas y TFG** · **2 titulaciones**
+**60 entradas principales** · **27 asignaturas y TFG** · **2 titulaciones**
 
 </div>
 
@@ -40,7 +40,7 @@ Cada entrada enlaza al repositorio que contiene el código, los cuadernos y la d
 <a id="grado-uc3m"></a>
 ## Grado en Ingeniería Informática · UC3M
 
-**Universidad Carlos III de Madrid** · 43 entradas principales.
+**Universidad Carlos III de Madrid** · 44 entradas principales.
 
 <a id="uc3m-1"></a>
 ### 1.º curso
@@ -186,6 +186,7 @@ Cada entrada enlaza al repositorio que contiene el código, los cuadernos y la d
 
 | Proyecto | Descripción | Tecnologías |
 | --- | --- | --- |
+| [Prototipo de vehículo con Raspberry Pi](https://github.com/cabamarcos/VehiclePrototype) · 🔒 Privado | Prácticas con un vehículo físico en Raspberry Pi: sensores de distancia y luz, motor DC, servomotor y luces RGB, con interrupciones, hilos y ejecución de comandos. | Python · Raspberry Pi · GPIO · threading |
 | [Gemelo digital de vehículos](https://github.com/cabamarcos/DigitalTwinVehiclePrototype) | Prototipo IoT que conecta vehículos virtuales, telemetría y gestión de rutas mediante MQTT, microservicios y contenedores. | Python · MQTT · Docker · Flask |
 | [Tacógrafo virtual](https://github.com/cabamarcos/Virtual-Tachograph) | Sistema IoT para gestionar tacógrafos, sesiones de conducción, telemetría y eventos mediante MQTT y microservicios. | Python · MQTT · Docker · Flask |
 
