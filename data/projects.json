@@ -1,0 +1,974 @@
+{
+  "author": "Marcos Caballero Cortés",
+  "updated": "2026-10-01",
+  "degrees": {
+    "UC3M": "Grado en Ingeniería Informática",
+    "UNIR": "Máster en Inteligencia Artificial"
+  },
+  "projects": [
+    {
+      "repository": "Learning-VHDL",
+      "title": "Lógica digital con VHDL",
+      "description": "Diseño y simulación de circuitos combinacionales y de un juego de piedra, papel o tijera para dos y cuatro jugadores.",
+      "degree": "UC3M",
+      "year": 1,
+      "subject": "Estructura de computadores",
+      "url": "https://github.com/cabamarcos/Learning-VHDL",
+      "technologies": [
+        "VHDL",
+        "Quartus"
+      ],
+      "visibility": "public",
+      "featured": false
+    },
+    {
+      "repository": "G89.2022.T01.EGZ",
+      "title": "Gestión de vacunación · entrega inicial",
+      "description": "Primera entrega de un gestor de solicitudes de vacunación: validación de identificadores, datos personales y peticiones en JSON.",
+      "degree": "UC3M",
+      "year": 2,
+      "subject": "Desarrollo del software",
+      "url": "https://github.com/cabamarcos/G89.2022.T01.EGZ",
+      "technologies": [
+        "Python",
+        "JSON"
+      ],
+      "visibility": "private",
+      "featured": false
+    },
+    {
+      "repository": "G89.2022.T01.GE3",
+      "title": "Gestión de vacunación · entrega 3",
+      "description": "Registro de pacientes, generación de citas y administración de vacunas, con validación de datos y pruebas unitarias.",
+      "degree": "UC3M",
+      "year": 2,
+      "subject": "Desarrollo del software",
+      "url": "https://github.com/cabamarcos/G89.2022.T01.GE3",
+      "technologies": [
+        "Python",
+        "PyBuilder",
+        "unittest"
+      ],
+      "visibility": "private",
+      "featured": false
+    },
+    {
+      "repository": "G89.2022.T01.GE4",
+      "title": "Gestión de vacunación · entrega 4",
+      "description": "Evolución del gestor de vacunación con atributos de dominio, excepciones y pruebas de validación de entradas JSON.",
+      "degree": "UC3M",
+      "year": 2,
+      "subject": "Desarrollo del software",
+      "url": "https://github.com/cabamarcos/G89.2022.T01.GE4",
+      "technologies": [
+        "Python",
+        "PyBuilder",
+        "unittest"
+      ],
+      "visibility": "private",
+      "featured": false
+    },
+    {
+      "repository": "G89.2022.T01.FP",
+      "title": "Gestión de vacunación · proyecto final",
+      "description": "Proyecto final del gestor de vacunación: organización del dominio, persistencia JSON, cancelación de citas y pruebas automatizadas.",
+      "degree": "UC3M",
+      "year": 2,
+      "subject": "Desarrollo del software",
+      "url": "https://github.com/cabamarcos/G89.2022.T01.FP",
+      "technologies": [
+        "Python",
+        "PyBuilder",
+        "unittest"
+      ],
+      "visibility": "public",
+      "featured": false
+    },
+    {
+      "repository": "ArtificialInteligence",
+      "title": "Control inteligente de semáforos",
+      "description": "Estimación de probabilidades de transición y búsqueda de una política para un cruce de tráfico mediante un proceso de decisión de Markov.",
+      "degree": "UC3M",
+      "year": 2,
+      "subject": "Inteligencia artificial",
+      "url": "https://github.com/cabamarcos/ArtificialInteligence",
+      "technologies": [
+        "Python",
+        "MDP"
+      ],
+      "visibility": "public",
+      "featured": false
+    },
+    {
+      "repository": "P1_Operating_Systems",
+      "title": "Utilidades de archivos en C",
+      "description": "Implementación de versiones de cat, ls y cálculo de tamaños para practicar llamadas al sistema y operaciones sobre archivos y directorios.",
+      "degree": "UC3M",
+      "year": 2,
+      "subject": "Sistemas operativos",
+      "url": "https://github.com/cabamarcos/P1_Operating_Systems",
+      "technologies": [
+        "C",
+        "POSIX"
+      ],
+      "visibility": "public",
+      "featured": false
+    },
+    {
+      "repository": "MiniShell",
+      "title": "Intérprete de comandos",
+      "description": "Mini shell con ejecución de procesos, tuberías, redirecciones, señales y comandos internos.",
+      "degree": "UC3M",
+      "year": 2,
+      "subject": "Sistemas operativos",
+      "url": "https://github.com/cabamarcos/MiniShell",
+      "technologies": [
+        "C",
+        "POSIX",
+        "procesos"
+      ],
+      "visibility": "public",
+      "featured": false
+    },
+    {
+      "repository": "CostCalculatorMultiThread",
+      "title": "Cálculo concurrente de costes",
+      "description": "Procesamiento de operaciones con productores y consumidores, una cola compartida e hilos POSIX para calcular costes.",
+      "degree": "UC3M",
+      "year": 2,
+      "subject": "Sistemas operativos",
+      "url": "https://github.com/cabamarcos/CostCalculatorMultiThread",
+      "technologies": [
+        "C",
+        "pthreads",
+        "concurrencia"
+      ],
+      "visibility": "public",
+      "featured": false
+    },
+    {
+      "repository": "DataBases_1",
+      "title": "Modelo relacional sanitario",
+      "description": "Creación y carga de un esquema de médicos, hospitales, aseguradoras y pólizas, con claves, restricciones y transformación de datos.",
+      "degree": "UC3M",
+      "year": 2,
+      "subject": "Ficheros y bases de datos",
+      "url": "https://github.com/cabamarcos/DataBases_1",
+      "technologies": [
+        "SQL",
+        "Oracle"
+      ],
+      "visibility": "public",
+      "featured": false
+    },
+    {
+      "repository": "Databases_2",
+      "title": "Consultas sobre servicios sanitarios",
+      "description": "Consultas complejas sobre el esquema sanitario de la primera práctica: coberturas, especialidades, médicos y periodos de carencia.",
+      "degree": "UC3M",
+      "year": 2,
+      "subject": "Ficheros y bases de datos",
+      "url": "https://github.com/cabamarcos/Databases_2",
+      "technologies": [
+        "SQL",
+        "Oracle"
+      ],
+      "visibility": "public",
+      "featured": false
+    },
+    {
+      "repository": "Learning-Assembly",
+      "title": "Programación en MIPS32",
+      "description": "Ejercicios de ensamblador sobre vectores, matrices, llamadas a funciones y uso de la pila, con una versión de referencia en Python.",
+      "degree": "UC3M",
+      "year": 2,
+      "subject": "Estructuras de computadores",
+      "url": "https://github.com/cabamarcos/Learning-Assembly",
+      "technologies": [
+        "MIPS32",
+        "ensamblador"
+      ],
+      "visibility": "public",
+      "featured": false
+    },
+    {
+      "repository": "Web-service-example",
+      "title": "Cliente SOAP de temperaturas",
+      "description": "Consumo de un servicio web de conversión entre Celsius y Fahrenheit mediante un cliente SOAP escrito en Python.",
+      "degree": "UC3M",
+      "year": 3,
+      "subject": "Arquitectura de computadores",
+      "url": "https://github.com/cabamarcos/Web-service-example",
+      "technologies": [
+        "Python",
+        "SOAP",
+        "Zeep"
+      ],
+      "visibility": "public",
+      "featured": false
+    },
+    {
+      "repository": "Arq_g81_E05",
+      "title": "C++ orientado al rendimiento",
+      "description": "Material inicial de una práctica de programación en C++ orientada al rendimiento y al manejo de archivos.",
+      "degree": "UC3M",
+      "year": 3,
+      "subject": "Arquitectura de computadores",
+      "url": "https://github.com/cabamarcos/Arq_g81_E05",
+      "technologies": [
+        "C++",
+        "CMake"
+      ],
+      "visibility": "private",
+      "featured": false,
+      "note": "Desarrollo inicial; parte del material está incompleta."
+    },
+    {
+      "repository": "FluidSimulator",
+      "title": "Simulador de fluidos",
+      "description": "Simulación de fluidos por partículas y bloques espaciales en C++20, con lectura de trazas, pruebas unitarias y pruebas funcionales.",
+      "degree": "UC3M",
+      "year": 3,
+      "subject": "Arquitectura de computadores",
+      "url": "https://github.com/cabamarcos/FluidSimulator",
+      "technologies": [
+        "C++20",
+        "CMake",
+        "GoogleTest"
+      ],
+      "visibility": "public",
+      "featured": true,
+      "alternatives": [
+        {
+          "repository": "Proyecto_arqui",
+          "url": "https://github.com/cabamarcos/Proyecto_arqui",
+          "visibility": "private"
+        }
+      ]
+    },
+    {
+      "repository": "WebPage",
+      "title": "Prototipo de reproductor musical",
+      "description": "Primera interfaz web de música con reproducción, registro y páginas de cuenta y perfil.",
+      "degree": "UC3M",
+      "year": 3,
+      "subject": "Interfaces de usuario",
+      "url": "https://github.com/cabamarcos/WebPage",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "visibility": "private",
+      "featured": false
+    },
+    {
+      "repository": "Musify",
+      "title": "Musify · aplicación musical",
+      "description": "Interfaz de música con biblioteca, listas de reproducción, favoritos, búsqueda, perfiles y controles del reproductor.",
+      "degree": "UC3M",
+      "year": 3,
+      "subject": "Interfaces de usuario",
+      "url": "https://github.com/cabamarcos/Musify",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "visibility": "private",
+      "featured": false
+    },
+    {
+      "repository": "Heuristica_P1",
+      "title": "Optimización de transporte escolar",
+      "description": "Modelos de programación matemática para minimizar costes de rutas de autobús y asignar alumnos a paradas bajo restricciones de capacidad y parentesco.",
+      "degree": "UC3M",
+      "year": 3,
+      "subject": "Heurística",
+      "url": "https://github.com/cabamarcos/Heuristica_P1",
+      "technologies": [
+        "GNU MathProg",
+        "optimización"
+      ],
+      "visibility": "private",
+      "featured": false
+    },
+    {
+      "repository": "Heuristica_P2",
+      "title": "Transporte escolar con CSP y A*",
+      "description": "Resolución de la distribución de alumnos con satisfacción de restricciones y planificación mediante búsqueda A*, con casos de prueba y estadísticas.",
+      "degree": "UC3M",
+      "year": 3,
+      "subject": "Heurística",
+      "url": "https://github.com/cabamarcos/Heuristica_P2",
+      "technologies": [
+        "Python",
+        "CSP",
+        "A*"
+      ],
+      "visibility": "private",
+      "featured": false
+    },
+    {
+      "repository": "SecureApp",
+      "title": "Registro de vehículos con criptografía",
+      "description": "Aplicación de escritorio para registrar y consultar datos de vehículos con autenticación, cifrado Fernet, derivación de claves y claves RSA.",
+      "degree": "UC3M",
+      "year": 3,
+      "subject": "Criptografía y seguridad informática",
+      "url": "https://github.com/cabamarcos/SecureApp",
+      "technologies": [
+        "Python",
+        "Tkinter",
+        "SQLite",
+        "cryptography"
+      ],
+      "visibility": "public",
+      "featured": false
+    },
+    {
+      "repository": "Machine-Learning-Prediccion-de-produccion-electrica-solar",
+      "title": "Predicción de producción solar",
+      "description": "Comparación de modelos de regresión y ajuste de hiperparámetros para estimar producción solar a partir de predicciones meteorológicas.",
+      "degree": "UC3M",
+      "year": 3,
+      "subject": "Aprendizaje automático",
+      "url": "https://github.com/cabamarcos/Machine-Learning-Prediccion-de-produccion-electrica-solar",
+      "technologies": [
+        "Python",
+        "scikit-learn",
+        "Jupyter"
+      ],
+      "visibility": "public",
+      "featured": false
+    },
+    {
+      "repository": "Machine-Learning-prediccion-abandono-burnout-empleados",
+      "title": "Predicción de abandono de empleados",
+      "description": "Clasificación de abandono laboral con preprocesamiento, regresión logística, boosting y evaluación de datos desbalanceados.",
+      "degree": "UC3M",
+      "year": 3,
+      "subject": "Aprendizaje automático",
+      "url": "https://github.com/cabamarcos/Machine-Learning-prediccion-abandono-burnout-empleados",
+      "technologies": [
+        "Python",
+        "scikit-learn",
+        "XGBoost"
+      ],
+      "visibility": "public",
+      "featured": false
+    },
+    {
+      "repository": "Navigator",
+      "title": "Avisos de proximidad",
+      "description": "Aplicación web que usa geolocalización y vibración para avisar cuando el usuario se acerca a su destino.",
+      "degree": "UC3M",
+      "year": 3,
+      "subject": "Sistemas interactivos y ubicuos",
+      "url": "https://github.com/cabamarcos/Navigator",
+      "technologies": [
+        "JavaScript",
+        "Geolocation API"
+      ],
+      "visibility": "public",
+      "featured": false
+    },
+    {
+      "repository": "To-do-list",
+      "title": "Lista de tareas táctil",
+      "description": "Interfaz móvil para añadir y gestionar tareas, con interacciones táctiles y un servidor de apoyo en Node.js.",
+      "degree": "UC3M",
+      "year": 3,
+      "subject": "Sistemas interactivos y ubicuos",
+      "url": "https://github.com/cabamarcos/To-do-list",
+      "technologies": [
+        "JavaScript",
+        "Node.js",
+        "HTML"
+      ],
+      "visibility": "public",
+      "featured": false
+    },
+    {
+      "repository": "TouchAPI",
+      "title": "Reproductor con gestos táctiles",
+      "description": "Control de vídeo mediante toques, dobles toques y deslizamientos para reproducir, avanzar, ajustar el volumen y activar pantalla completa.",
+      "degree": "UC3M",
+      "year": 3,
+      "subject": "Sistemas interactivos y ubicuos",
+      "url": "https://github.com/cabamarcos/TouchAPI",
+      "technologies": [
+        "JavaScript",
+        "Touch API",
+        "Fullscreen API"
+      ],
+      "visibility": "public",
+      "featured": false
+    },
+    {
+      "repository": "SpeechRecognition",
+      "title": "Reconocimiento y síntesis de voz",
+      "description": "Demostración web que transcribe voz y reproduce texto mediante las funciones de reconocimiento y síntesis de voz del navegador.",
+      "degree": "UC3M",
+      "year": 3,
+      "subject": "Sistemas interactivos y ubicuos",
+      "url": "https://github.com/cabamarcos/SpeechRecognition",
+      "technologies": [
+        "JavaScript",
+        "Web Speech API"
+      ],
+      "visibility": "public",
+      "featured": false
+    },
+    {
+      "repository": "VideoFlix",
+      "title": "VideoFlix · vídeo accesible",
+      "description": "Plataforma de vídeos con mando remoto desde el móvil, funciones de voz, lectura fácil y pictogramas para facilitar la interacción.",
+      "degree": "UC3M",
+      "year": 3,
+      "subject": "Sistemas interactivos y ubicuos",
+      "url": "https://github.com/cabamarcos/VideoFlix",
+      "technologies": [
+        "JavaScript",
+        "Node.js",
+        "Socket.IO"
+      ],
+      "visibility": "public",
+      "featured": true,
+      "alternatives": [
+        {
+          "repository": "P2_ubicuos",
+          "url": "https://github.com/cabamarcos/P2_ubicuos",
+          "visibility": "private"
+        }
+      ]
+    },
+    {
+      "repository": "procesadores_lenguaje",
+      "title": "Analizadores y traductores",
+      "description": "Prácticas de análisis sintáctico descendente y calculadoras en C, junto con el desarrollo del traductor de C a Lisp.",
+      "degree": "UC3M",
+      "year": 3,
+      "subject": "Procesadores del lenguaje",
+      "url": "https://github.com/cabamarcos/procesadores_lenguaje",
+      "technologies": [
+        "C",
+        "Bison",
+        "análisis sintáctico"
+      ],
+      "visibility": "private",
+      "featured": false
+    },
+    {
+      "repository": "CtoLisp",
+      "title": "Traductor de C a Lisp",
+      "description": "Traducción de un subconjunto de C a Lisp mediante gramáticas Bison, con pruebas de funciones, bucles y expresiones.",
+      "degree": "UC3M",
+      "year": 3,
+      "subject": "Procesadores del lenguaje",
+      "url": "https://github.com/cabamarcos/CtoLisp",
+      "technologies": [
+        "C",
+        "Bison",
+        "Lisp"
+      ],
+      "visibility": "public",
+      "featured": false
+    },
+    {
+      "repository": "Ejercicio2_distribuidos",
+      "title": "Servicio clave-valor con colas POSIX",
+      "description": "Servicio cliente-servidor de almacenamiento clave-valor en C, comunicado mediante colas de mensajes POSIX.",
+      "degree": "UC3M",
+      "year": 3,
+      "subject": "Sistemas distribuidos",
+      "url": "https://github.com/cabamarcos/Ejercicio2_distribuidos",
+      "technologies": [
+        "C",
+        "POSIX",
+        "IPC"
+      ],
+      "visibility": "private",
+      "featured": false,
+      "note": "Versión conservada; pendiente de sustituir por la entrega más completa."
+    },
+    {
+      "repository": "Ejercicio3-distribuidos",
+      "title": "Servicio clave-valor con RPC",
+      "description": "Evolución del servicio clave-valor con interfaces RPC, código generado a partir de una especificación y comunicación cliente-servidor.",
+      "degree": "UC3M",
+      "year": 3,
+      "subject": "Sistemas distribuidos",
+      "url": "https://github.com/cabamarcos/Ejercicio3-distribuidos",
+      "technologies": [
+        "C",
+        "RPC",
+        "rpcgen"
+      ],
+      "visibility": "private",
+      "featured": false,
+      "note": "Versión conservada; pendiente de sustituir por la entrega más completa."
+    },
+    {
+      "repository": "Practica-final-distribuidos",
+      "title": "Aplicación distribuida cliente-servidor",
+      "description": "Proyecto distribuido con servidor en C, cliente gráfico en Python, comunicación por sockets y un servicio web complementario.",
+      "degree": "UC3M",
+      "year": 3,
+      "subject": "Sistemas distribuidos",
+      "url": "https://github.com/cabamarcos/Practica-final-distribuidos",
+      "technologies": [
+        "C",
+        "Python",
+        "sockets"
+      ],
+      "visibility": "private",
+      "featured": false,
+      "note": "Versión conservada; pendiente de sustituir por la entrega más completa."
+    },
+    {
+      "repository": "Password-Cracking",
+      "title": "Evaluación de resistencia de contraseñas",
+      "description": "Experimentos académicos con John the Ripper para comparar ataques de diccionario y fuerza bruta sobre hashes MD5 y SHA-256.",
+      "degree": "UC3M",
+      "year": 4,
+      "subject": "Ingeniería de la ciberseguridad",
+      "url": "https://github.com/cabamarcos/Password-Cracking",
+      "technologies": [
+        "John the Ripper",
+        "Bash",
+        "Python"
+      ],
+      "visibility": "public",
+      "featured": false
+    },
+    {
+      "repository": "Captcha_recognition",
+      "title": "Reconocimiento de caracteres en CAPTCHA",
+      "description": "Generación de imágenes CAPTCHA y experimentación con redes convolucionales para reconocer sus caracteres.",
+      "degree": "UC3M",
+      "year": 4,
+      "subject": "Inteligencia artificial en las organizaciones",
+      "url": "https://github.com/cabamarcos/Captcha_recognition",
+      "technologies": [
+        "Python",
+        "TensorFlow",
+        "Keras",
+        "OpenCV"
+      ],
+      "visibility": "public",
+      "featured": false
+    },
+    {
+      "repository": "P2.1-RRNN",
+      "title": "Clasificación de medios de transporte",
+      "description": "Redes neuronales densas para identificar el medio de transporte a partir de datos de sensores, con preprocesamiento y tratamiento del desbalanceo.",
+      "degree": "UC3M",
+      "year": 4,
+      "subject": "Redes de neuronas",
+      "url": "https://github.com/cabamarcos/P2.1-RRNN",
+      "technologies": [
+        "Python",
+        "TensorFlow",
+        "Keras"
+      ],
+      "visibility": "private",
+      "featured": false
+    },
+    {
+      "repository": "P2.2-RRNN",
+      "title": "Clasificación de imágenes aéreas",
+      "description": "Redes neuronales para clasificar escenas de uso del suelo del conjunto UC Merced, con preparación de imágenes y experimentación convolucional.",
+      "degree": "UC3M",
+      "year": 4,
+      "subject": "Redes de neuronas",
+      "url": "https://github.com/cabamarcos/P2.2-RRNN",
+      "technologies": [
+        "Python",
+        "TensorFlow",
+        "Keras"
+      ],
+      "visibility": "private",
+      "featured": false
+    },
+    {
+      "repository": "DevOps",
+      "title": "Aplicación de películas con CI",
+      "description": "Aplicación Python de gestión de películas con SQLite, modelos de dominio, pruebas automatizadas y un flujo de integración y calidad en GitHub Actions.",
+      "degree": "UC3M",
+      "year": 4,
+      "subject": "Desarrollo y operación de sistemas software",
+      "url": "https://github.com/cabamarcos/DevOps",
+      "technologies": [
+        "Python",
+        "SQLite",
+        "GitHub Actions"
+      ],
+      "visibility": "private",
+      "featured": false
+    },
+    {
+      "repository": "DigitalTwinVehiclePrototype",
+      "title": "Gemelo digital de vehículos",
+      "description": "Prototipo IoT que conecta vehículos virtuales, telemetría y gestión de rutas mediante MQTT, microservicios y contenedores.",
+      "degree": "UC3M",
+      "year": 4,
+      "subject": "Internet de las cosas",
+      "url": "https://github.com/cabamarcos/DigitalTwinVehiclePrototype",
+      "technologies": [
+        "Python",
+        "MQTT",
+        "Docker",
+        "Flask"
+      ],
+      "visibility": "public",
+      "featured": false
+    },
+    {
+      "repository": "Virtual-Tachograph",
+      "title": "Tacógrafo virtual",
+      "description": "Sistema IoT para gestionar tacógrafos, sesiones de conducción, telemetría y eventos mediante MQTT y microservicios.",
+      "degree": "UC3M",
+      "year": 4,
+      "subject": "Internet de las cosas",
+      "url": "https://github.com/cabamarcos/Virtual-Tachograph",
+      "technologies": [
+        "Python",
+        "MQTT",
+        "Docker",
+        "Flask"
+      ],
+      "visibility": "public",
+      "featured": false
+    },
+    {
+      "repository": "Skin_cancer_classifier",
+      "title": "Clasificación de lesiones cutáneas",
+      "description": "Experimento de clasificación de imágenes dermatoscópicas ISIC con redes convolucionales, preprocesamiento y aumento de datos en PyTorch.",
+      "degree": "UC3M",
+      "year": 4,
+      "subject": "Visión artificial",
+      "url": "https://github.com/cabamarcos/Skin_cancer_classifier",
+      "technologies": [
+        "Python",
+        "PyTorch",
+        "CNN"
+      ],
+      "visibility": "public",
+      "featured": false
+    },
+    {
+      "repository": "GANs_experimentation",
+      "title": "Experimentación con GANs",
+      "description": "Implementación y comparación de GANs densas, DCGAN, WGAN y WGAN-GP para generar imágenes de MNIST y CelebA.",
+      "degree": "UC3M",
+      "year": 4,
+      "subject": "Visión artificial",
+      "url": "https://github.com/cabamarcos/GANs_experimentation",
+      "technologies": [
+        "Python",
+        "PyTorch",
+        "GANs"
+      ],
+      "visibility": "public",
+      "featured": true
+    },
+    {
+      "repository": "SuperMask",
+      "title": "SuperMask · trabajo de fin de grado",
+      "description": "Investigación sobre algoritmos evolutivos para buscar supermáscaras en redes neuronales, con experimentos sobre MNIST, CIFAR-10 y Animals-10.",
+      "degree": "UC3M",
+      "year": 4,
+      "subject": "Trabajo de fin de grado",
+      "url": "https://github.com/cabamarcos/SuperMask",
+      "technologies": [
+        "Python",
+        "PyTorch",
+        "algoritmos evolutivos"
+      ],
+      "visibility": "public",
+      "featured": true
+    },
+    {
+      "repository": "Caracterizacion_de_textos",
+      "title": "Caracterización de textos de odio",
+      "description": "Análisis y preprocesamiento lingüístico de comentarios en español con spaCy, tokenización y reconocimiento de entidades.",
+      "degree": "UNIR",
+      "year": null,
+      "subject": "Procesamiento del lenguaje natural",
+      "url": "https://github.com/cabamarcos/Caracterizacion_de_textos",
+      "technologies": [
+        "Python",
+        "spaCy",
+        "NLP"
+      ],
+      "visibility": "public",
+      "featured": false
+    },
+    {
+      "repository": "WordEmbeddings-Transformers",
+      "title": "Clasificación con embeddings y Transformers",
+      "description": "Clasificación de mensajes de 20 Newsgroups mediante vocabularios, embeddings y comparación de redes clásicas con un modelo Transformer.",
+      "degree": "UNIR",
+      "year": null,
+      "subject": "Procesamiento del lenguaje natural",
+      "url": "https://github.com/cabamarcos/WordEmbeddings-Transformers",
+      "technologies": [
+        "Python",
+        "TensorFlow",
+        "Keras",
+        "Transformers"
+      ],
+      "visibility": "public",
+      "featured": false
+    },
+    {
+      "repository": "AirQualityPrediction",
+      "title": "Predicción de calidad del aire",
+      "description": "Regresión sobre el conjunto Air Quality de UCI, con limpieza de datos y comparación de regresión lineal y árboles de decisión.",
+      "degree": "UNIR",
+      "year": null,
+      "subject": "Aprendizaje automático supervisado",
+      "url": "https://github.com/cabamarcos/AirQualityPrediction",
+      "technologies": [
+        "Python",
+        "scikit-learn",
+        "regresión"
+      ],
+      "visibility": "public",
+      "featured": false
+    },
+    {
+      "repository": "HateSpeachRecognition",
+      "title": "Clasificación de mensajes de odio",
+      "description": "Preparación de textos y comparación de modelos supervisados para clasificar mensajes de odio, con evaluación mediante precisión, recall y F1.",
+      "degree": "UNIR",
+      "year": null,
+      "subject": "Aprendizaje automático supervisado",
+      "url": "https://github.com/cabamarcos/HateSpeachRecognition",
+      "technologies": [
+        "Python",
+        "scikit-learn",
+        "NLP"
+      ],
+      "visibility": "public",
+      "featured": false
+    },
+    {
+      "repository": "ForestCoverPrediction",
+      "title": "Predicción de cubierta forestal",
+      "description": "Clasificación del conjunto Covertype de UCI a partir de variables cartográficas, comparando máquinas de vectores de soporte y Random Forest.",
+      "degree": "UNIR",
+      "year": null,
+      "subject": "Aprendizaje automático supervisado",
+      "url": "https://github.com/cabamarcos/ForestCoverPrediction",
+      "technologies": [
+        "Python",
+        "scikit-learn",
+        "SVM",
+        "Random Forest"
+      ],
+      "visibility": "public",
+      "featured": false
+    },
+    {
+      "repository": "clustering-algorithms-comparison",
+      "title": "Comparación de clustering",
+      "description": "Análisis de datos de sensores de maquinaria mediante K-means, clustering jerárquico y DBSCAN, con evaluación de los grupos obtenidos.",
+      "degree": "UNIR",
+      "year": null,
+      "subject": "Aprendizaje automático no supervisado",
+      "url": "https://github.com/cabamarcos/clustering-algorithms-comparison",
+      "technologies": [
+        "Python",
+        "scikit-learn",
+        "clustering"
+      ],
+      "visibility": "public",
+      "featured": false
+    },
+    {
+      "repository": "dimensionality-reduction-analysis",
+      "title": "Reducción de dimensionalidad",
+      "description": "Comparación de PCA y t-SNE para visualizar datos de texto en dos dimensiones, con exploración de temas mediante LDA.",
+      "degree": "UNIR",
+      "year": null,
+      "subject": "Aprendizaje automático no supervisado",
+      "url": "https://github.com/cabamarcos/dimensionality-reduction-analysis",
+      "technologies": [
+        "Python",
+        "scikit-learn",
+        "Gensim",
+        "PCA"
+      ],
+      "visibility": "public",
+      "featured": false
+    },
+    {
+      "repository": "Outlier_detection",
+      "title": "Detección de anomalías eléctricas",
+      "description": "Detección de valores inusuales en datos de corriente y tensión mediante media móvil, Z-score, Isolation Forest y Local Outlier Factor.",
+      "degree": "UNIR",
+      "year": null,
+      "subject": "Aprendizaje automático no supervisado",
+      "url": "https://github.com/cabamarcos/Outlier_detection",
+      "technologies": [
+        "Python",
+        "scikit-learn",
+        "anomalías"
+      ],
+      "visibility": "public",
+      "featured": false
+    },
+    {
+      "repository": "Search_algorithms",
+      "title": "Comparación de algoritmos de búsqueda",
+      "description": "Resolución de recorridos en mapas con búsqueda en amplitud, profundidad, coste uniforme y A*, comparando costes y heurísticas.",
+      "degree": "UNIR",
+      "year": null,
+      "subject": "Razonamiento y planificación automática",
+      "url": "https://github.com/cabamarcos/Search_algorithms",
+      "technologies": [
+        "Python",
+        "SimpleAI",
+        "A*"
+      ],
+      "visibility": "public",
+      "featured": false
+    },
+    {
+      "repository": "PDDL",
+      "title": "Dominios de planificación en PDDL",
+      "description": "Modelado de dominios y problemas de planificación: mundo de bloques, contador, rovers y transporte.",
+      "degree": "UNIR",
+      "year": null,
+      "subject": "Razonamiento y planificación automática",
+      "url": "https://github.com/cabamarcos/PDDL",
+      "technologies": [
+        "PDDL",
+        "planificación"
+      ],
+      "visibility": "private",
+      "featured": false
+    },
+    {
+      "repository": "PyPA_2",
+      "title": "Planificación de misiones de rovers",
+      "description": "Modelado de problemas de exploración con rovers en PDDL y variantes de objetivos para planificadores automáticos.",
+      "degree": "UNIR",
+      "year": null,
+      "subject": "Razonamiento y planificación automática",
+      "url": "https://github.com/cabamarcos/PyPA_2",
+      "technologies": [
+        "PDDL",
+        "rovers"
+      ],
+      "visibility": "private",
+      "featured": false
+    },
+    {
+      "repository": "Mejora_de_imagenes",
+      "title": "Mejora de imágenes con poca luz",
+      "description": "Experimentos sobre Dark Face con ajustes de brillo, ecualización de histogramas, CLAHE y corrección gamma.",
+      "degree": "UNIR",
+      "year": null,
+      "subject": "Visión artificial",
+      "url": "https://github.com/cabamarcos/Mejora_de_imagenes",
+      "technologies": [
+        "Python",
+        "OpenCV",
+        "Jupyter"
+      ],
+      "visibility": "public",
+      "featured": false
+    },
+    {
+      "repository": "TomatoDetection",
+      "title": "Detección de tomates maduros",
+      "description": "Segmentación por color HSV, filtros espaciales, morfología y análisis de contornos para detectar tomates maduros.",
+      "degree": "UNIR",
+      "year": null,
+      "subject": "Visión artificial",
+      "url": "https://github.com/cabamarcos/TomatoDetection",
+      "technologies": [
+        "Python",
+        "OpenCV",
+        "visión artificial"
+      ],
+      "visibility": "public",
+      "featured": false
+    },
+    {
+      "repository": "MNIST_MLP",
+      "title": "Dígitos manuscritos con MLP",
+      "description": "Clasificación de dígitos de MNIST mediante perceptrones multicapa y experimentación con el entrenamiento en Keras y TensorFlow.",
+      "degree": "UNIR",
+      "year": null,
+      "subject": "Redes de neuronas",
+      "url": "https://github.com/cabamarcos/MNIST_MLP",
+      "technologies": [
+        "Python",
+        "TensorFlow",
+        "Keras"
+      ],
+      "visibility": "public",
+      "featured": false
+    },
+    {
+      "repository": "CIFAR10_CNN",
+      "title": "Clasificación de CIFAR-10",
+      "description": "Clasificación de imágenes de animales y vehículos con redes convolucionales y experimentación con modelos en Keras.",
+      "degree": "UNIR",
+      "year": null,
+      "subject": "Redes de neuronas",
+      "url": "https://github.com/cabamarcos/CIFAR10_CNN",
+      "technologies": [
+        "Python",
+        "TensorFlow",
+        "Keras",
+        "CNN"
+      ],
+      "visibility": "public",
+      "featured": false
+    },
+    {
+      "repository": "LSTM_hate_recognition",
+      "title": "Intensidad de odio con redes recurrentes",
+      "description": "Clasificación de la intensidad de odio en mensajes de redes sociales mediante preprocesamiento textual y redes recurrentes LSTM.",
+      "degree": "UNIR",
+      "year": null,
+      "subject": "Redes de neuronas",
+      "url": "https://github.com/cabamarcos/LSTM_hate_recognition",
+      "technologies": [
+        "Python",
+        "TensorFlow",
+        "Keras",
+        "LSTM"
+      ],
+      "visibility": "public",
+      "featured": false
+    }
+  ],
+  "pending": [
+    {
+      "degree": "UC3M",
+      "subject": "Sistemas distribuidos",
+      "description": "Incorporar las versiones más completas conservadas en otro ordenador."
+    },
+    {
+      "degree": "UC3M",
+      "subject": "Ingeniería de la ciberseguridad",
+      "description": "Añadir las prácticas que aún no están recopiladas."
+    },
+    {
+      "degree": "UC3M",
+      "subject": "Inteligencia artificial en las organizaciones",
+      "description": "Completar las entregas anteriores al proyecto final."
+    },
+    {
+      "degree": "UNIR",
+      "subject": "Trabajo de fin de máster",
+      "description": "Añadir el TFM cuando esté localizado."
+    }
+  ]
+}

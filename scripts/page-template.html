@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Proyectos de Marcos Caballero: Grado en Ingeniería Informática en UC3M y Máster en Inteligencia Artificial en UNIR. Código, investigación y prácticas por asignatura.">
+  <meta name="theme-color" content="#081e36">
+  <title>Proyectos académicos · Marcos Caballero</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23081e36'/%3E%3Cpath d='M17 20h30v7H24v10h23v7H17z' fill='%2337d4c3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#catalogo">Saltar al catálogo</a>
+  <header class="topbar wrap">
+    <a class="identity" href="./"><span class="monogram" aria-hidden="true">MC</span><span>Marcos Caballero<span class="identity-sub">Archivo académico</span></span></a>
+    <nav aria-label="Enlaces principales"><a href="https://github.com/cabamarcos/academic-projects#readme">README</a><a href="https://github.com/cabamarcos">GitHub</a></nav>
+  </header>
+  <main class="wrap">
+    <section class="intro" aria-labelledby="page-title">
+      <div><p class="eyebrow">UC3M / UNIR</p><h1 id="page-title">Del primer circuito<br>a la inteligencia artificial.</h1><p class="lead">Prácticas, proyectos en equipo e investigación del Grado en Ingeniería Informática y del Máster en Inteligencia Artificial.</p></div>
+      <div class="totals"><div><strong>{{TOTAL}}</strong><span>entradas principales</span></div><div><strong>{{SUBJECTS}}</strong><span>asignaturas y TFG</span></div><div><strong>02</strong><span>titulaciones</span></div></div>
+    </section>
+    <section class="featured" aria-labelledby="destacados"><div class="section-label"><h2 id="destacados">Una selección del recorrido</h2><span>Investigación, sistemas e interacción</span></div><div class="featured-grid">{{FEATURED}}</div></section>
+    <div class="catalog-layout">
+      <aside class="side"><h2>El recorrido</h2><nav aria-label="Índice del catálogo"><a href="#uc3m-1">UC3M · 1.º curso</a><a href="#uc3m-2">UC3M · 2.º curso</a><a href="#uc3m-3">UC3M · 3.º curso</a><a href="#uc3m-4">UC3M · 4.º curso y TFG</a><a href="#unir">UNIR · Máster en IA</a><a href="#pendiente">Pendiente de incorporar</a></nav><p class="access-note"><strong>Acceso a los proyectos</strong>{{PRIVATE}} entradas enlazan a repositorios privados y requieren permiso en GitHub.</p></aside>
+      <section id="catalogo" class="catalog" aria-labelledby="catalog-title">
+        <div class="catalog-heading"><h2 id="catalog-title">El catálogo completo</h2><p id="result-count" role="status" aria-live="polite">{{TOTAL}} entradas</p></div>
+        <form class="filters" role="search" aria-label="Buscar proyectos" hidden>
+          <div class="search-field"><label for="search">Buscar un proyecto</label><input id="search" type="search" placeholder="Nombre, asignatura o tecnología…" autocomplete="off"></div>
+          <div><label for="degree">Titulación</label><select id="degree"><option value="">Todas</option><option value="UC3M">Grado · UC3M</option><option value="UNIR">Máster · UNIR</option></select></div>
+          <div><label for="year">Curso del grado</label><select id="year"><option value="">Todos</option><option value="1">1.º</option><option value="2">2.º</option><option value="3">3.º</option><option value="4">4.º y TFG</option></select></div>
+          <button class="reset" type="reset">Limpiar</button>
+        </form>
+        <div id="empty" class="empty" hidden><h3>No hay proyectos con esos filtros.</h3><p>Prueba con otra asignatura, tecnología o titulación.</p></div>
+        <div id="entries">{{ENTRIES}}</div>
+      </section>
+    </div>
+    <section id="pendiente" class="pending" aria-labelledby="pending-title"><p class="eyebrow">El archivo sigue creciendo</p><h2 id="pending-title">Pendiente de incorporar</h2><div class="pending-grid">{{PENDING}}</div></section>
+  </main>
+  <footer class="wrap"><p>Marcos Caballero Cortés · <a href="https://github.com/cabamarcos">@cabamarcos</a></p><p>Última revisión: {{UPDATED}} · <a href="https://github.com/cabamarcos/academic-projects/blob/main/data/projects.json">Datos del catálogo</a></p></footer>
+</body>
+</html>
