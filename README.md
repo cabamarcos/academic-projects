@@ -127,7 +127,7 @@ Cada entrada enlaza al repositorio que contiene el código, los cuadernos y la d
 | --- | --- | --- |
 | [Predicción de producción solar](https://github.com/cabamarcos/Machine-Learning-Prediccion-de-produccion-electrica-solar) | Comparación de modelos de regresión y ajuste de hiperparámetros para estimar producción solar a partir de predicciones meteorológicas. | Python · scikit-learn · Jupyter |
 | [Predicción de abandono de empleados](https://github.com/cabamarcos/Machine-Learning-prediccion-abandono-burnout-empleados) | Clasificación de abandono laboral con preprocesamiento, regresión logística, boosting y evaluación de datos desbalanceados. | Python · scikit-learn · XGBoost |
-| [Pacman · aprendizaje por refuerzo](https://github.com/cabamarcos/Pacman) · 🔒 Privado | Q-learning para capturar fantasmas visibles y estáticos, con entrenamiento reproducible, comparación frente a agentes aleatorios y BFS, y una demo de trayectorias. **Desarrollo personal de 2026 a partir del material inicial de la asignatura. No fue una entrega del grado.** | Python · Q-learning · BFS |
+| [Pacman · aprendizaje por refuerzo](https://github.com/cabamarcos/Pacman) · 🔒 Privado | Q-learning para capturar fantasmas visibles y estáticos, con entrenamiento reproducible, comparación frente a agentes aleatorios y BFS, y una demo de trayectorias. **Material previsto para Aprendizaje Automático de 3.º que no llegó a formar parte de los proyectos de ese curso escolar. Desarrollo personal posterior (2026).** | Python · Q-learning · BFS |
 
 #### Sistemas interactivos y ubicuos
 
