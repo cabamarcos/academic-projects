@@ -9,13 +9,13 @@
 
 [Explorar la página](https://cabamarcos.github.io/academic-projects/) · [Mi perfil de GitHub](https://github.com/cabamarcos)
 
-**60 entradas principales** · **27 asignaturas y TFG** · **2 titulaciones**
+**61 entradas principales** · **27 asignaturas y TFG** · **2 titulaciones**
 
 </div>
 
 Una recopilación de mis prácticas, proyectos en equipo y trabajos de investigación: desde lógica digital, sistemas y desarrollo de software hasta aprendizaje automático, visión artificial y procesamiento del lenguaje natural.
 
-Cada entrada enlaza al repositorio que contiene el código, los cuadernos y la documentación. Las descripciones resumen el contenido de los proyectos; las prácticas conservan su contexto académico y su fase de desarrollo.
+Cada entrada enlaza al repositorio que contiene el código, los cuadernos y la documentación. Las descripciones resumen el contenido de los proyectos; las prácticas conservan su contexto académico y su fase de desarrollo. Los desarrollos personales posteriores se identifican expresamente.
 
 > 🔒 Los repositorios privados aparecen identificados y requieren acceso en GitHub. El catálogo reúne sus referencias, sin publicar su código.
 
@@ -40,7 +40,7 @@ Cada entrada enlaza al repositorio que contiene el código, los cuadernos y la d
 <a id="grado-uc3m"></a>
 ## Grado en Ingeniería Informática · UC3M
 
-**Universidad Carlos III de Madrid** · 44 entradas principales.
+**Universidad Carlos III de Madrid** · 45 entradas principales.
 
 <a id="uc3m-1"></a>
 ### 1.º curso
@@ -127,6 +127,7 @@ Cada entrada enlaza al repositorio que contiene el código, los cuadernos y la d
 | --- | --- | --- |
 | [Predicción de producción solar](https://github.com/cabamarcos/Machine-Learning-Prediccion-de-produccion-electrica-solar) | Comparación de modelos de regresión y ajuste de hiperparámetros para estimar producción solar a partir de predicciones meteorológicas. | Python · scikit-learn · Jupyter |
 | [Predicción de abandono de empleados](https://github.com/cabamarcos/Machine-Learning-prediccion-abandono-burnout-empleados) | Clasificación de abandono laboral con preprocesamiento, regresión logística, boosting y evaluación de datos desbalanceados. | Python · scikit-learn · XGBoost |
+| [Pacman · aprendizaje por refuerzo](https://github.com/cabamarcos/Pacman) · 🔒 Privado | Q-learning para capturar fantasmas visibles y estáticos, con entrenamiento reproducible, comparación frente a agentes aleatorios y BFS, y una demo de trayectorias. **Desarrollo personal de 2026 a partir del material inicial de la asignatura. No fue una entrega del grado.** | Python · Q-learning · BFS |
 
 #### Sistemas interactivos y ubicuos
 

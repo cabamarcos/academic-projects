@@ -359,6 +359,23 @@
       "featured": false
     },
     {
+      "repository": "Pacman",
+      "title": "Pacman · aprendizaje por refuerzo",
+      "description": "Q-learning para capturar fantasmas visibles y estáticos, con entrenamiento reproducible, comparación frente a agentes aleatorios y BFS, y una demo de trayectorias.",
+      "degree": "UC3M",
+      "year": 3,
+      "subject": "Aprendizaje automático",
+      "url": "https://github.com/cabamarcos/Pacman",
+      "technologies": [
+        "Python",
+        "Q-learning",
+        "BFS"
+      ],
+      "visibility": "private",
+      "featured": false,
+      "note": "Desarrollo personal de 2026 a partir del material inicial de la asignatura. No fue una entrega del grado."
+    },
+    {
       "repository": "Navigator",
       "title": "Avisos de proximidad",
       "description": "Aplicación web que usa geolocalización y vibración para avisar cuando el usuario se acerca a su destino.",
