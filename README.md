@@ -9,7 +9,7 @@
 
 [Explorar la página](https://cabamarcos.github.io/academic-projects/) · [Mi perfil de GitHub](https://github.com/cabamarcos)
 
-**61 entradas principales** · **27 asignaturas y TFG** · **2 titulaciones**
+**62 entradas principales** · **27 asignaturas y TFG** · **2 titulaciones**
 
 </div>
 
@@ -40,7 +40,7 @@ Cada entrada enlaza al repositorio que contiene el código, los cuadernos y la d
 <a id="grado-uc3m"></a>
 ## Grado en Ingeniería Informática · UC3M
 
-**Universidad Carlos III de Madrid** · 45 entradas principales.
+**Universidad Carlos III de Madrid** · 46 entradas principales.
 
 <a id="uc3m-1"></a>
 ### 1.º curso
@@ -182,6 +182,7 @@ Cada entrada enlaza al repositorio que contiene el código, los cuadernos y la d
 | Proyecto | Descripción | Tecnologías |
 | --- | --- | --- |
 | [API de películas con integración continua](https://github.com/cabamarcos/DevOps) | API Flask de gestión de películas con creación, consulta, edición y borrado, persistencia SQLite, validación de datos, pruebas aisladas y controles de calidad en GitHub Actions. | Python · Flask · Pydantic · SQLite · pytest · GitHub Actions |
+| [Temperature Warrior — control de temperatura](https://github.com/aaronespasa/software-air-conditioning) · 🔒 Privado | Sistema de control de temperatura para Meadow F7 V2, con rondas configurables, servidor C# e interfaz web que muestra las mediciones en tiempo real mediante WebSockets. **Proyecto final realizado en equipo con Aarón Espasandín y otros compañeros. Enlace al repositorio original del equipo.** | C# · .NET · Meadow F7 V2 · Next.js · TypeScript · WebSockets |
 
 #### Internet de las cosas
 

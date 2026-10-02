@@ -648,6 +648,26 @@
       "featured": false
     },
     {
+      "repository": "aaronespasa/software-air-conditioning",
+      "title": "Temperature Warrior — control de temperatura",
+      "description": "Sistema de control de temperatura para Meadow F7 V2, con rondas configurables, servidor C# e interfaz web que muestra las mediciones en tiempo real mediante WebSockets.",
+      "degree": "UC3M",
+      "year": 4,
+      "subject": "Desarrollo y operación de sistemas software",
+      "url": "https://github.com/aaronespasa/software-air-conditioning",
+      "technologies": [
+        "C#",
+        ".NET",
+        "Meadow F7 V2",
+        "Next.js",
+        "TypeScript",
+        "WebSockets"
+      ],
+      "visibility": "private",
+      "featured": false,
+      "note": "Proyecto final realizado en equipo con Aarón Espasandín y otros compañeros. Enlace al repositorio original del equipo."
+    },
+    {
       "repository": "VehiclePrototype",
       "title": "Prototipo de vehículo con Raspberry Pi",
       "description": "Prácticas con un vehículo físico en Raspberry Pi: sensores de distancia y luz, motor DC, servomotor y luces RGB, con interrupciones, hilos y ejecución de comandos.",
