@@ -174,14 +174,14 @@ Cada entrada enlaza al repositorio que contiene el código, los cuadernos y la d
 | Proyecto | Descripción | Tecnologías |
 | --- | --- | --- |
 | [Predicción del rendimiento de turbinas · práctica 1](https://github.com/cabamarcos/Gas-Turbine-Emission-Prediction) | Predicción del rendimiento energético (TEY) de una turbina de gas a partir de sensores, comparando Adaline implementada desde cero y un perceptrón multicapa. | Python · NumPy · TensorFlow · Keras |
-| [Clasificación de medios de transporte](https://github.com/cabamarcos/P2.1-RRNN) · 🔒 Privado | Redes neuronales densas para identificar el medio de transporte a partir de datos de sensores, con preprocesamiento y tratamiento del desbalanceo. | Python · TensorFlow · Keras |
+| [Clasificación de medios de transporte](https://github.com/cabamarcos/P2.1-RRNN) | Redes neuronales densas para identificar cinco medios de transporte a partir de sensores, con evaluación por trayectorias, comparación de pesos de clase e inferencia con un modelo guardado. | Python · TensorFlow · Keras · scikit-learn · pandas · Matplotlib |
 | [Clasificación de imágenes aéreas](https://github.com/cabamarcos/P2.2-RRNN) · 🔒 Privado | Redes neuronales para clasificar escenas de uso del suelo del conjunto UC Merced, con preparación de imágenes y experimentación convolucional. | Python · TensorFlow · Keras |
 
 #### Desarrollo y operación de sistemas software
 
 | Proyecto | Descripción | Tecnologías |
 | --- | --- | --- |
-| [Aplicación de películas con CI](https://github.com/cabamarcos/DevOps) · 🔒 Privado | Aplicación Python de gestión de películas con SQLite, modelos de dominio, pruebas automatizadas y un flujo de integración y calidad en GitHub Actions. | Python · SQLite · GitHub Actions |
+| [API de películas con integración continua](https://github.com/cabamarcos/DevOps) | API Flask de gestión de películas con creación, consulta, edición y borrado, persistencia SQLite, validación de datos, pruebas aisladas y controles de calidad en GitHub Actions. | Python · Flask · Pydantic · SQLite · pytest · GitHub Actions |
 
 #### Internet de las cosas
 
@@ -293,4 +293,4 @@ El generador solo necesita Python 3 y su biblioteca estándar. La página es est
 ---
 
 **Marcos Caballero Cortés** · [@cabamarcos](https://github.com/cabamarcos)  
-Última revisión del catálogo: **1 de octubre de 2026**.
+Última revisión del catálogo: **2 de octubre de 2026**.

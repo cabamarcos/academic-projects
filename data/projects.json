@@ -1,6 +1,6 @@
 {
   "author": "Marcos Caballero Cortés",
-  "updated": "2026-10-01",
+  "updated": "2026-10-02",
   "degrees": {
     "UC3M": "Grado en Ingeniería Informática",
     "UNIR": "Máster en Inteligencia Artificial"
@@ -596,7 +596,7 @@
     {
       "repository": "P2.1-RRNN",
       "title": "Clasificación de medios de transporte",
-      "description": "Redes neuronales densas para identificar el medio de transporte a partir de datos de sensores, con preprocesamiento y tratamiento del desbalanceo.",
+      "description": "Redes neuronales densas para identificar cinco medios de transporte a partir de sensores, con evaluación por trayectorias, comparación de pesos de clase e inferencia con un modelo guardado.",
       "degree": "UC3M",
       "year": 4,
       "subject": "Redes de neuronas",
@@ -604,9 +604,12 @@
       "technologies": [
         "Python",
         "TensorFlow",
-        "Keras"
+        "Keras",
+        "scikit-learn",
+        "pandas",
+        "Matplotlib"
       ],
-      "visibility": "private",
+      "visibility": "public",
       "featured": false
     },
     {
@@ -627,18 +630,21 @@
     },
     {
       "repository": "DevOps",
-      "title": "Aplicación de películas con CI",
-      "description": "Aplicación Python de gestión de películas con SQLite, modelos de dominio, pruebas automatizadas y un flujo de integración y calidad en GitHub Actions.",
+      "title": "API de películas con integración continua",
+      "description": "API Flask de gestión de películas con creación, consulta, edición y borrado, persistencia SQLite, validación de datos, pruebas aisladas y controles de calidad en GitHub Actions.",
       "degree": "UC3M",
       "year": 4,
       "subject": "Desarrollo y operación de sistemas software",
       "url": "https://github.com/cabamarcos/DevOps",
       "technologies": [
         "Python",
+        "Flask",
+        "Pydantic",
         "SQLite",
+        "pytest",
         "GitHub Actions"
       ],
-      "visibility": "private",
+      "visibility": "public",
       "featured": false
     },
     {
