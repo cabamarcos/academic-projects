@@ -9,7 +9,7 @@
 
 [Explorar la página](https://cabamarcos.github.io/academic-projects/) · [Mi perfil de GitHub](https://github.com/cabamarcos)
 
-**62 entradas principales** · **27 asignaturas y TFG** · **2 titulaciones**
+**63 entradas principales** · **28 asignaturas, TFG y TFM** · **2 titulaciones**
 
 </div>
 
@@ -27,6 +27,7 @@ Cada entrada enlaza al repositorio que contiene el código, los cuadernos y la d
 | [VideoFlix · vídeo accesible](https://github.com/cabamarcos/VideoFlix) | Plataforma de vídeos con mando remoto desde el móvil, funciones de voz, lectura fácil y pictogramas para facilitar la interacción. | JavaScript · Node.js · Socket.IO |
 | [Experimentación con GANs](https://github.com/cabamarcos/GANs_experimentation) | Implementación y comparación de GANs densas, DCGAN, WGAN y WGAN-GP para generar imágenes de MNIST y CelebA. | Python · PyTorch · GANs |
 | [SuperMask · trabajo de fin de grado](https://github.com/cabamarcos/SuperMask) | Investigación sobre algoritmos evolutivos para buscar supermáscaras en redes neuronales, con experimentos sobre MNIST, CIFAR-10 y Animals-10. | Python · PyTorch · algoritmos evolutivos |
+| [Optimización de rutas urbanas · trabajo de fin de máster](https://github.com/GabiGR67/urban_route_optimization) | TFM en equipo sobre detección de señales de tráfico con YOLO y optimización de rutas urbanas mediante grafos y restricciones viales. Incluye código, cuadernos y resultados de entrenamiento. | Python · YOLO · grafos · Jupyter |
 
 ## Índice
 
@@ -208,7 +209,7 @@ Cada entrada enlaza al repositorio que contiene el código, los cuadernos y la d
 <a id="master-unir"></a>
 ## Máster en Inteligencia Artificial · UNIR
 
-**Universidad Internacional de La Rioja** · 16 entradas principales.
+**Universidad Internacional de La Rioja** · 17 entradas principales.
 
 ### Procesamiento del lenguaje natural
 
@@ -256,6 +257,12 @@ Cada entrada enlaza al repositorio que contiene el código, los cuadernos y la d
 | [Clasificación de CIFAR-10](https://github.com/cabamarcos/CIFAR10_CNN) | Clasificación de imágenes de animales y vehículos con redes convolucionales y experimentación con modelos en Keras. | Python · TensorFlow · Keras · CNN |
 | [Intensidad de odio con redes recurrentes](https://github.com/cabamarcos/LSTM_hate_recognition) | Clasificación de la intensidad de odio en mensajes de redes sociales mediante preprocesamiento textual y redes recurrentes LSTM. | Python · TensorFlow · Keras · LSTM |
 
+### Trabajo de fin de máster
+
+| Proyecto | Descripción | Tecnologías |
+| --- | --- | --- |
+| [Optimización de rutas urbanas · trabajo de fin de máster](https://github.com/GabiGR67/urban_route_optimization) | TFM en equipo sobre detección de señales de tráfico con YOLO y optimización de rutas urbanas mediante grafos y restricciones viales. Incluye código, cuadernos y resultados de entrenamiento. | Python · YOLO · grafos · Jupyter |
+
 <a id="procedencia"></a>
 ## Repositorios alternativos y procedencia
 
@@ -278,12 +285,11 @@ Las autorías, licencias y créditos se consultan en cada repositorio original.
 | UC3M | Sistemas distribuidos | Incorporar las versiones más completas conservadas en otro ordenador. |
 | UC3M | Ingeniería de la ciberseguridad | Añadir las prácticas que aún no están recopiladas. |
 | UC3M | Inteligencia artificial en las organizaciones | Completar las entregas anteriores al proyecto final. |
-| UNIR | Trabajo de fin de máster | Añadir el TFM cuando esté localizado. |
 
 <a id="actualizar"></a>
 ## Cómo actualizar el catálogo
 
-El contenido del README y de la página nace de una única fuente: [`data/projects.json`](data/projects.json). Para añadir una entrega, cambiar su enlace o incorporar el TFM:
+El contenido del README y de la página nace de una única fuente: [`data/projects.json`](data/projects.json). Para añadir un proyecto o una entrega, o cambiar su enlace:
 
 1. Editar los datos del proyecto en ese archivo.
 2. Ejecutar `python scripts/generate.py`.
@@ -294,4 +300,4 @@ El generador solo necesita Python 3 y su biblioteca estándar. La página es est
 ---
 
 **Marcos Caballero Cortés** · [@cabamarcos](https://github.com/cabamarcos)  
-Última revisión del catálogo: **2 de octubre de 2026**.
+Última revisión del catálogo: **5 de octubre de 2026**.

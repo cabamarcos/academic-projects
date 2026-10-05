@@ -1,6 +1,6 @@
 {
   "author": "Marcos Caballero Cortés",
-  "updated": "2026-10-02",
+  "updated": "2026-10-05",
   "degrees": {
     "UC3M": "Grado en Ingeniería Informática",
     "UNIR": "Máster en Inteligencia Artificial"
@@ -1024,6 +1024,23 @@
       ],
       "visibility": "public",
       "featured": false
+    },
+    {
+      "repository": "urban_route_optimization",
+      "title": "Optimización de rutas urbanas · trabajo de fin de máster",
+      "description": "TFM en equipo sobre detección de señales de tráfico con YOLO y optimización de rutas urbanas mediante grafos y restricciones viales. Incluye código, cuadernos y resultados de entrenamiento.",
+      "degree": "UNIR",
+      "year": null,
+      "subject": "Trabajo de fin de máster",
+      "url": "https://github.com/GabiGR67/urban_route_optimization",
+      "technologies": [
+        "Python",
+        "YOLO",
+        "grafos",
+        "Jupyter"
+      ],
+      "visibility": "public",
+      "featured": true
     }
   ],
   "pending": [
@@ -1041,11 +1058,6 @@
       "degree": "UC3M",
       "subject": "Inteligencia artificial en las organizaciones",
       "description": "Completar las entregas anteriores al proyecto final."
-    },
-    {
-      "degree": "UNIR",
-      "subject": "Trabajo de fin de máster",
-      "description": "Añadir el TFM cuando esté localizado."
     }
   ]
 }
