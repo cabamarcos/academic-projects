@@ -451,7 +451,7 @@
         "Socket.IO"
       ],
       "visibility": "public",
-      "featured": true,
+      "featured": false,
       "alternatives": [
         {
           "repository": "P2_ubicuos",
@@ -1059,5 +1059,11 @@
       "subject": "Inteligencia artificial en las organizaciones",
       "description": "Completar las entregas anteriores al proyecto final."
     }
+  ],
+  "featured_order": [
+    "urban_route_optimization",
+    "SuperMask",
+    "GANs_experimentation",
+    "FluidSimulator"
   ]
 }

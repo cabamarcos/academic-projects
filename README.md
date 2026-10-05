@@ -23,11 +23,10 @@ Cada entrada enlaza al repositorio que contiene el código, los cuadernos y la d
 
 | Proyecto | Qué encontrarás | Tecnologías |
 | --- | --- | --- |
-| [Simulador de fluidos](https://github.com/cabamarcos/FluidSimulator) | Simulación de fluidos por partículas y bloques espaciales en C++20, con lectura de trazas, pruebas unitarias y pruebas funcionales. | C++20 · CMake · GoogleTest |
-| [VideoFlix · vídeo accesible](https://github.com/cabamarcos/VideoFlix) | Plataforma de vídeos con mando remoto desde el móvil, funciones de voz, lectura fácil y pictogramas para facilitar la interacción. | JavaScript · Node.js · Socket.IO |
-| [Experimentación con GANs](https://github.com/cabamarcos/GANs_experimentation) | Implementación y comparación de GANs densas, DCGAN, WGAN y WGAN-GP para generar imágenes de MNIST y CelebA. | Python · PyTorch · GANs |
-| [SuperMask · trabajo de fin de grado](https://github.com/cabamarcos/SuperMask) | Investigación sobre algoritmos evolutivos para buscar supermáscaras en redes neuronales, con experimentos sobre MNIST, CIFAR-10 y Animals-10. | Python · PyTorch · algoritmos evolutivos |
 | [Optimización de rutas urbanas · trabajo de fin de máster](https://github.com/GabiGR67/urban_route_optimization) | TFM en equipo sobre detección de señales de tráfico con YOLO y optimización de rutas urbanas mediante grafos y restricciones viales. Incluye código, cuadernos y resultados de entrenamiento. | Python · YOLO · grafos · Jupyter |
+| [SuperMask · trabajo de fin de grado](https://github.com/cabamarcos/SuperMask) | Investigación sobre algoritmos evolutivos para buscar supermáscaras en redes neuronales, con experimentos sobre MNIST, CIFAR-10 y Animals-10. | Python · PyTorch · algoritmos evolutivos |
+| [Experimentación con GANs](https://github.com/cabamarcos/GANs_experimentation) | Implementación y comparación de GANs densas, DCGAN, WGAN y WGAN-GP para generar imágenes de MNIST y CelebA. | Python · PyTorch · GANs |
+| [Simulador de fluidos](https://github.com/cabamarcos/FluidSimulator) | Simulación de fluidos por partículas y bloques espaciales en C++20, con lectura de trazas, pruebas unitarias y pruebas funcionales. | C++20 · CMake · GoogleTest |
 
 ## Índice
 

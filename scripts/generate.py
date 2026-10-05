@@ -6,6 +6,8 @@ import json, pathlib, html, collections, datetime
 out = pathlib.Path(__file__).resolve().parents[1]
 catalog = json.loads((out/'data'/'projects.json').read_text(encoding='utf-8'))
 projects = catalog['projects']
+featured_order = {name: index for index, name in enumerate(catalog.get('featured_order', []))}
+featured_projects = sorted((p for p in projects if p['featured']), key=lambda p: featured_order.get(p['repository'], len(featured_order)))
 groups = []
 for p in projects:
     key = [p['degree'], p['year'], p['subject']]
@@ -23,8 +25,8 @@ count=collections.Counter(p['degree'] for p in projects)
 private=sum(p['visibility']=='private' for p in projects)
 def repo_link(p):return '['+p['title']+']('+p['url']+')'+(' · 🔒 Privado' if p['visibility']=='private' else '')
 lines=['<div align="center">','', '<img src="assets/banner.svg" alt="Marcos Caballero · Proyectos académicos · Ingeniería Informática e Inteligencia Artificial" width="100%" />','', '# Proyectos académicos','', '**Grado en Ingeniería Informática · UC3M**  ', '**Máster en Inteligencia Artificial · UNIR**','', '[Explorar la página](https://cabamarcos.github.io/academic-projects/) · [Mi perfil de GitHub](https://github.com/cabamarcos)','', f'**{len(projects)} entradas principales** · **{len(groups)} asignaturas, TFG y TFM** · **2 titulaciones**','', '</div>','', 'Una recopilación de mis prácticas, proyectos en equipo y trabajos de investigación: desde lógica digital, sistemas y desarrollo de software hasta aprendizaje automático, visión artificial y procesamiento del lenguaje natural.','', 'Cada entrada enlaza al repositorio que contiene el código, los cuadernos y la documentación. Las descripciones resumen el contenido de los proyectos; las prácticas conservan su contexto académico y su fase de desarrollo.','', '> 🔒 Los repositorios privados aparecen identificados y requieren acceso en GitHub. El catálogo reúne sus referencias, sin publicar su código.','', '## Proyectos destacados','', '| Proyecto | Qué encontrarás | Tecnologías |','| --- | --- | --- |']
-for p in projects:
- if p['featured']:lines.append(f"| {repo_link(p)} | {p['description']} | {' · '.join(p['technologies'])} |")
+for p in featured_projects:
+ lines.append(f"| {repo_link(p)} | {p['description']} | {' · '.join(p['technologies'])} |")
 lines+=['','## Índice','', '- [Grado en Ingeniería Informática · UC3M](#grado-uc3m)','  - [1.º curso](#uc3m-1) · [2.º curso](#uc3m-2) · [3.º curso](#uc3m-3) · [4.º curso y TFG](#uc3m-4)','- [Máster en Inteligencia Artificial · UNIR](#master-unir)','- [Repositorios alternativos y procedencia](#procedencia)','- [Pendiente de incorporar](#pendiente)','- [Cómo actualizar el catálogo](#actualizar)','', '<a id="grado-uc3m"></a>','## Grado en Ingeniería Informática · UC3M','', f'**Universidad Carlos III de Madrid** · {count["UC3M"]} entradas principales.','']
 for year in range(1,5):
  lines +=[f'<a id="uc3m-{year}"></a>',f'### {year}.º curso'+(' y trabajo de fin de grado' if year==4 else ''),'']
@@ -72,7 +74,7 @@ for degree, year in [('UC3M',1),('UC3M',2),('UC3M',3),('UC3M',4),('UNIR',None)]:
         subject_cards = ''.join(card(p) for p in selected if p['subject']==subject)
         pieces.append('<section class="subject"><h3>'+esc(subject)+'</h3><div class="project-grid">'+subject_cards+'</div></section>')
     sections.append(f'<section class="course" id="{ident}"><div class="course-title"><h2>{esc(title)}</h2><span>{esc(institution)}</span></div>'+''.join(pieces)+'</section>')
-featured = ''.join(f'<a class="feature" href="{esc(p["url"])}"><small>{esc(p["degree"])} · {"TFG" if p["repository"]=="SuperMask" else esc(p["subject"])}</small><h3>{esc(p["title"])}</h3><span>{esc(p["technologies"][0])}</span></a>' for p in projects if p['featured'])
+featured = ''.join(f'<a class="feature" href="{esc(p["url"])}"><small>{esc(p["degree"])} · {"TFG" if p["repository"]=="SuperMask" else esc(p["subject"])}</small><h3>{esc(p["title"])}</h3><span>{esc(p["technologies"][0])}</span></a>' for p in featured_projects)
 pending = ''.join('<article class="pending-item"><small>'+esc(p['degree'])+'</small><h3>'+esc(p['subject'])+'</h3><p>'+esc(p['description'])+'</p></article>' for p in catalog['pending'])
 page = (out/'scripts'/'page-template.html').read_text(encoding='utf-8')
 for key, value in {'TOTAL':len(projects),'SUBJECTS':len(groups),'PRIVATE':private,'FEATURED':featured,'ENTRIES':''.join(sections),'PENDING':pending,'UPDATED':formatted_date}.items():
